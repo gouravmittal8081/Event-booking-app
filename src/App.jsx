@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import EventDetails from "./components/EventDetails";
-import "./app.css";
+import "./App.css";
 const App = () => {
   return (
       <Routes>
