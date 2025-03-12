@@ -1,0 +1,182 @@
+body {
+  background-color: black !important;
+}
+
+.eventList {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.motionClass {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#motionId {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.motionClass:hover {
+  background-color: rgb(28, 0, 130);
+  color: white;
+}
+
+.countdown-timer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: rgb(6, 0, 88);
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  gap: 5px;
+}
+
+.eventDetailsCss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.colorHome {
+  color: white;
+}
+
+.divApp {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.categoryFilter {
+  color: white;
+}
+
+.motionDivClass {
+  background-color: #f9b234;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .eventList {
+    margin: 0;
+  }
+}
+
+/* sdsdf */
+.motionClass {
+  background-color: #121212;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+.motionClass:hover {
+  transform: scale(1.05);
+}
+
+/* Default Card Colors */
+.motionClass:nth-child(1) {
+  background-color: #f9b234;
+}
+
+.motionClass:nth-child(2) {
+  background-color: #3ecd5e;
+}
+
+.motionClass:nth-child(3) {
+  background-color: #e44002;
+}
+
+.motionClass:nth-child(4) {
+  background-color: #952aff;
+}
+
+.motionClass:nth-child(5) {
+  background-color: #cd3e94;
+}
+
+.motionClass:nth-child(6) {
+  background-color: #4c49ea;
+}
+
+/* Hover Colors */
+.motionClass:nth-child(1):hover {
+  background-color: #ffcc00;
+}
+
+.motionClass:nth-child(2):hover {
+  background-color: #28a745;
+}
+
+.motionClass:nth-child(3):hover {
+  background-color: #ff5733;
+}
+
+.motionClass:nth-child(4):hover {
+  background-color: #7d3cff;
+}
+
+.motionClass:nth-child(5):hover {
+  background-color: #e83e8c;
+}
+
+.motionClass:nth-child(6):hover {
+  background-color: #6c63ff;
+}
+
+.motionClass h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.motionClass p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.motionClass .btn-primary {
+  background-color: #fff;
+  color: #121212;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.motionClass .btn-primary:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .motionClass h5 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .motionClass {
+    padding: 15px;
+  }
+
+  .motionClass h5 {
+    font-size: 18px;
+  }
+
+  .motionClass p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Conference 2024",
+    "category": "Technology",
+    "date": "2024-06-15",
+    "time": "10:00 AM",
+    "location": "San Francisco, CA",
+    "description": "An annual tech conference featuring top industry leaders.",
+    "popularity": 5,
+    "seatsAvailable": 50,
+    "rsvpStatus": false
+  },
+  {
+    "id": 2,
+    "title": "AI & Machine Learning Summit",
+    "category": "Artificial Intelligence",
+    "date": "2024-07-10",
+    "time": "2:00 PM",
+    "location": "New York, NY",
+    "description": "A deep dive into AI advancements and their applications.",
+    "popularity": 4,
+    "seatsAvailable": 30,
+    "rsvpStatus": false
+  },
+  {
+    "id": 3,
+    "title": "Music Festival 2024",
+    "category": "Entertainment",
+    "date": "2024-08-22",
+    "time": "6:00 PM",
+    "location": "Los Angeles, CA",
+    "description": "A live music event featuring international artists.",
+    "popularity": 5,
+    "seatsAvailable": 100,
+    "rsvpStatus": false
+  },
+  {
+    "id": 4,
+    "title": "Startup Pitch Night",
+    "category": "Business",
+    "date": "2024-09-05",
+    "time": "7:00 PM",
+    "location": "Seattle, WA",
+    "description": "A platform for entrepreneurs to pitch their startups to investors.",
+    "popularity": 3,
+    "seatsAvailable": 20,
+    "rsvpStatus": false
+  },
+  {
+    "id": 5,
+    "title": "Fitness Bootcamp",
+    "category": "Health & Wellness",
+    "date": "2024-10-12",
+    "time": "8:00 AM",
+    "location": "Miami, FL",
+    "description": "A high-intensity training session led by professional trainers.",
+    "popularity": 4,
+    "seatsAvailable": 40,
+    "rsvpStatus": false
+  }
+]
